@@ -1,0 +1,59 @@
+/*  navigation bar */
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.dropdown-toggle:after {
+ display: none;
+}
+
+.vl {
+  border-left: 3px solid white;
+  height: 27px;
+  left: 50%;
+  margin-left: 4px;
+  top: 10;
+  padding: 5px;
+}
+
+form .all{
+width: 60px;
+background:#ddd;
+border-radius: 5px 0 0 5px;
+}
+
+.left{
+display: flex;
+align-items:center;
+}
+.vender{
+margin-top:75px;
+}
+
+/* end navigation bar */
+/* start footer */
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   padding:10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*end footer*/

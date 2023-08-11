@@ -1,0 +1,33 @@
+body {
+        background: linear-gradient(to bottom right, #ff5050 0%, #6600ff 100%)
+
+}
+.v{
+        width:600px;
+        height:500px;
+        background-color:#3c3c3c;
+        border-style:groove #3c3c3c;
+        border-style:inset 10px 10px 10px 10px;
+        border-radius:5px;
+        text-align:center;
+        padding:20px;
+}
+input[type=] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:3px;
+}
+form{
+margin: 0 auto;
+width:450px}
+.form label{
+display:inline-block;
+text-align:right;
+float:left
+}
+.form input{
+display: inline-block
+text-align:center;
+float:right}
